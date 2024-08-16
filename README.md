@@ -1,4 +1,14 @@
-# rabbit-mq
+# Install Rabbit-msq Server to Centos 8
+
+## Steps
+####1. Add repository for Erlang version 26.2.5.2-1.el8
+####2. Install Erlang version 26.2.5.2-1.el8
+####3. Add repository for Rabbitmq server version 3.13.4
+####4. Install Rabbit mq server
+####5. Download and add plugin for Rabbitmq server
+####6. Enable plugins
+####7. Add user for rabbitmq and set permisions
+
 
 ## To install we need Erlang version 26.2.5.2-1.el8
 ### Install Erlang version 26.2.5.2-1.el8
