@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4ded567f-4c1a-4560-8e06-cd7b25b94ae6)# Install Rabbit-msq Server to Centos 8
+# Install Rabbit-msq Server to Centos 8
 
 ### Steps
 
@@ -103,7 +103,6 @@ wget https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases/down
 ~~~
 mv rabbitmq_delayed_message_exchange-3.13.0.ez /usr/lib/rabbitmq/lib/rabbitmq_server-3.13.7/plugins/
 ~~~
-
 ### 7. Enable plugins
 ~~~
 rabbitmq-plugins enable rabbitmq_shovel
