@@ -49,6 +49,7 @@ dnf install erlang
 
 ### 4. Add repository for Rabbitmq server version 3.13.7
 ~~~
+sudo tee /etc/yum.repos.d/rabbitmq_rabbitmq-server.repo <<EOF
 [rabbitmq_rabbitmq-server]
 name=rabbitmq_rabbitmq-server
 baseurl=https://packagecloud.io/rabbitmq/rabbitmq-server/el/8/$basearch
